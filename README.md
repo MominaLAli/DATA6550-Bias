@@ -11,6 +11,9 @@ This project investigates bias in the Adult Income dataset (Census Income datase
 - Random Forest: 85.3% accuracy, 17.8% demographic parity difference
 - SVM: 79.3% accuracy, 2.4% demographic parity difference (most fair)
 
+- <img width="547" height="545" alt="image" src="https://github.com/user-attachments/assets/ba642edf-7f7d-45b0-bb81-8957d068bda1" />
+
+
 ## Dataset
 
 **Source:** UCI Machine Learning Repository - Adult Income Dataset  
