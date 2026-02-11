@@ -147,5 +147,3 @@ jupyter notebook income.ipynb
 
 
 ---
-
-**Acknowledgments:** We thank Professor [Instructor Name] for guidance on this project and the UCI Machine Learning Repository for providing the Adult Income dataset.
