@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project investigates bias in the Adult Income dataset (Census Income dataset) through comprehensive analysis of multiple machine learning models. We identify, measure, and propose mitigation strategies for gender and racial bias in income prediction algorithms.
+This project investigates bias in the Adult Income dataset (Census Income dataset) through a comprehensive analysis of multiple machine learning models. We identify, measure, and propose mitigation strategies for gender- and racial-bias in income-prediction algorithms.
 
 **Key Findings:**
 - Males are predicted to earn >$50K at 2.7x the rate of females
@@ -17,7 +17,7 @@ This project investigates bias in the Adult Income dataset (Census Income datase
 ## Dataset
 
 **Source:** UCI Machine Learning Repository - Adult Income Dataset  
-**Records:** 48,842 individuals from 1994 U.S. Census  
+**Records:** 48,842 individuals from the 1994 U.S. Census  
 **Features:** 14 demographic and employment attributes (age, education, occupation, race, gender, hours worked, etc.)  
 **Target:** Binary classification - Does annual income exceed $50,000?
 
@@ -67,8 +67,8 @@ DATA6550-Bias/
 | **SVM** | 79.3% | **0.024** | **0.047** |
 
 **Interpretation:**
-- Random Forest achieves highest accuracy but with significant bias
-- SVM demonstrates best fairness performance with acceptable accuracy
+- Random Forest achieves the highest accuracy, but with significant bias
+- SVM demonstrates the best fairness performance with acceptable accuracy
 - No single model optimizes both accuracy and fairness
 - Different fairness definitions yield different "best" models
 
@@ -114,7 +114,7 @@ cd DATA6550-Bias
 cd Code/[YourLastName]
 
 # Run Jupyter notebook
-jupyter notebook income.ipynb
+Jupyter Notebook income.ipynb
 ```
 
 ### Reproducing Results
@@ -130,7 +130,7 @@ jupyter notebook income.ipynb
 2. **Historical Bias Persists:** Models trained on 1994 data perpetuate outdated gender and racial disparities
 3. **Proxy Variables Enable Discrimination:** Removing gender/race features doesn't eliminate bias—occupation and education serve as proxies
 4. **Fairness is Context-Dependent:** No universal fairness definition; metric selection requires ethical and legal consideration
-5. **Multi-Layered Mitigation Required:** Addressing bias needs interventions at data, model, and process levels
+5. **Multi-Layered Mitigation Required:** Addressing bias needs interventions at the data, model, and process levels
 
 ## Future Work
 
