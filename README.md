@@ -25,20 +25,12 @@ DATA6550-Bias/
 ├── README.md                           # Project overview and documentation
 ├── final_report.pdf                    # Complete analysis report with findings
 ├── Code/                               # Individual contributor code
-│   ├── [YourLastName]/                # Your analysis scripts
-│   │   └── income.ipynb               # Main analysis notebook
-│   ├── [Teammate2LastName]/           # Teammate 2 code
-│   ├── [Teammate3LastName]/           # Teammate 3 code
-│   └── [Teammate4LastName]/           # Teammate 4 code
+│   ├── [Teammate1]/                   
+│   ├── [Teammate2]/                   
+│   └── [Teammate3]/                   
 ├── Data/                              # Dataset files
-│   └── adult.csv                      # Adult Income dataset
+│   └── adult.csv                      
 └── Analysis/                          # Visualizations and intermediate results
-    ├── income_by_gender.png          # Gender income disparity chart
-    ├── income_by_race.png            # Racial income disparity chart
-    ├── model_accuracy_comparison.png  # Model performance comparison
-    ├── demographic_parity.png        # Fairness metric visualization
-    ├── tpr_difference.png            # Equal opportunity metric
-    └── income_distribution_stacked.png # Stacked income distribution
 ```
 
 ## Methodology
